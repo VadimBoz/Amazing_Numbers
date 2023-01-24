@@ -103,8 +103,8 @@ public class Main {
                 for (Properties item: Properties.values()) {
                     if (stringArrayList.contains(item.prop1) && stringArrayList.contains(item.prop2)) {
                         System.out.println("The request contains mutually exclusive properties: [" +
-                                item.prop1.toUpperCase() + ", " + item.prop2.toUpperCase() +
-                                "]\n" + "There are no numbers with these properties.");
+                            item.prop1.toUpperCase() + ", " + item.prop2.toUpperCase() +
+                            "]\n" + "There are no numbers with these properties.");
                         flag = 1;
                     }
                 }
@@ -113,50 +113,50 @@ public class Main {
                 }
                 if (stringArrayList.contains("-square") && stringArrayList.contains("-sunny")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "-square".toUpperCase() + ", " + "-sunny".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "-square".toUpperCase() + ", " + "-sunny".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("square") && stringArrayList.contains("sunny")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "square".toUpperCase() + ", " + "sunny".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "square".toUpperCase() + ", " + "sunny".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("-odd") && stringArrayList.contains("-even")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "-odd".toUpperCase() + ", " + "-even".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "-odd".toUpperCase() + ", " + "-even".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("odd") && stringArrayList.contains("even")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "odd".toUpperCase() + ", " + "even".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "odd".toUpperCase() + ", " + "even".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("-spy") && stringArrayList.contains("-duck")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "-spy".toUpperCase() + ", " + "-duck".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "-spy".toUpperCase() + ", " + "-duck".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("spy") && stringArrayList.contains("duck")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "spy".toUpperCase() + ", " + "duck".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "spy".toUpperCase() + ", " + "duck".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("-happy") && stringArrayList.contains("-sad")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "-sad".toUpperCase() + ", " + "-happy".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "-sad".toUpperCase() + ", " + "-happy".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
                 if (stringArrayList.contains("happy") && stringArrayList.contains("sad")) {
                     System.out.println("The request contains mutually exclusive properties: [" +
-                            "sad".toUpperCase() + ", " + "happy".toUpperCase() +
-                            "]\n" + "There are no numbers with these properties.");
+                        "sad".toUpperCase() + ", " + "happy".toUpperCase() +
+                        "]\n" + "There are no numbers with these properties.");
                     continue;
                 }
 

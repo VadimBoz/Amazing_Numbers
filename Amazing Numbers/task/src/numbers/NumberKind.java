@@ -67,8 +67,8 @@ public class NumberKind {
         if (odd(num, 2)) strOdd = "odd ";
         if (sunny(num, 2)) strSunny = "sunny ";
         if (jumping(num, 2)) strJumping = "jumping ";
-        if (happy(num, 2)) strHappy = "happy";
-        if (sad(num, 2)) strSad = "sad";
+        if (happy(num, 2)) strHappy = "happy ";
+        if (sad(num, 2)) strSad = "sad ";
         String str = strBuzz + strDuck + strPalindromic  + strGapful + strSpy + strSquare + strSunny + strJumping +
                 strEven  + strOdd  +  strHappy + strSad;
         String[] array = str.split(" ");
@@ -245,8 +245,8 @@ public class NumberKind {
     }
 
     private static boolean happyNum(long num, int i, int flag) {
-        if (num == 1 && i < 30) return true;
         if  (i > 30) return false;
+        if (num == 1) return true;
         ArrayList<Long> gigits = new ArrayList<>();
         while (num > 0) {
             gigits.add(num % 10);
